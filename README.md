@@ -41,7 +41,7 @@ encoders.encode_base64(p)
 p.add_header('Content-Disposition',f'attachment ; filename = {file}')
 
 ```
-##Start server 
+## Start server 
 Now we just need to start up the server 
 
 ```
@@ -52,7 +52,7 @@ server.login('quickpython123@gmail.com',password)
 
 ```
 
-##Message
+## Message
 After we have successfully login to our account , we would need to add addtional information such as where it is coming from , where it is going , and the subject
 
 ```
@@ -65,7 +65,7 @@ msg.attach(MIMEText(text,'plain'))
 
 ```
 
-##Fire Away 
+## Fire Away 
 We are ready to send it 
 
 ```
